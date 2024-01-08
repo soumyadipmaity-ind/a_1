@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
 * {
   margin: 0%;
   padding: 0%;
 }
+/* MY Display Resolution 1366*768 */
+/* MY Display Resolution 1366*768 */
+/* MY Display Resolution 1366*768 */
 
 .con1 {
   height: 500px;
@@ -19,11 +25,6 @@
   background-size: 100%;
   background-repeat: no-repeat;
 }
-
-/* .con2{
-    border-radius: 116px;
-background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-} */
 
 .con1 h3 {
   color: #fff;
@@ -43,10 +44,9 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
   font-size: 72px;
   font-style: normal;
   font-weight: 900;
-  line-height: 95%;
-  /* 131.944% */
-  width: 500px;
-  padding-left: 310px;
+
+  width: 600px;
+  padding-left: 200px;
 }
 
 .con2 .d1 .text2 h1 {
@@ -131,7 +131,7 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
   font-family: Inter;
   font-weight: 695px;
   line-height: 30px;
-  word-wrap: break-word;
+
   padding-left: 100px;
   width: 80%;
 }
@@ -195,7 +195,7 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
   font-family: Inter;
   font-weight: 700;
   text-transform: uppercase;
-  word-wrap: break-word;
+
   border-color: #ff0000;
   border-radius: 10px;
   padding: 5px 15px;
@@ -203,14 +203,147 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 
 .con5 {
   display: flex;
-  background-color: aquamarine;
+
   padding: 60px 144px;
   align-items: center;
 }
+.con5 .img {
+  padding-right: inherit;
+}
 
-.con5 .img .circle {
-  width: 100px;
-  height: 100px;
-  background-color: blue;
-  border-radius: 50%;
+.cer {
+  width: 300px;
+  height: 300px;
+  background-size: 100%;
+  background-image: url("../imgs/e1.png");
+  border-radius: 400px;
+  border: solid 0.5rem #ff0000;
+  box-sizing: border-box;
+}
+
+.con5 .txt1 .h1 {
+  color: #ff0000;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 500px;
+}
+.con5 .txt1 h1 {
+  color: #070211;
+  font-size: 48px;
+  font-family: Merriweather;
+  font-weight: 900;
+  text-transform: capitalize;
+
+  padding-top: 20px;
+}
+.con5 .txt1 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 32px;
+
+  width: 393px;
+  padding-top: 20px;
+}
+
+.con5 .txt2 {
+  margin-right: 200px;
+}
+
+.con5 .txt2 h1 {
+  color: #ff0000;
+  font-size: 48px;
+  font-family: Inter;
+  font-weight: 700;
+}
+
+.con5 .txt2 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 32px;
+
+  width: 300px;
+  padding-top: 20px;
+}
+
+.con6 {
+  align-content: center;
+}
+.con6 .txt1 {
+  text-align: center;
+  margin-top: 120px;
+  color: #070211;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 500;
+}
+.con6 h1 {
+  text-align: center;
+
+  font-size: 72px;
+  font-family: Merriweather;
+}
+
+.con6 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+  margin-left: 144px;
+  margin-right: 144px;
+  padding-top: 30px;
+}
+
+.con7 {
+  margin-top: 50px;
+  margin-left: 144px;
+  margin-right: 144px;
+}
+.con7 .txt1 {
+  color: #ff0000;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 500;
+  margin-top: 200px;
+}
+.con7 .txt2 {
+  color: #070211;
+  font-size: 48px;
+  font-family: Merriweather;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 25px;
+}
+.con7 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 30px;
+}
+.con7 .imgline1 {
+  display: flex;
+  height: 370px;
+  margin-top: 50px;
+}
+.con7 .imgline2 {
+  display: flex;
+  height: 378px;
+  margin-top: 50px;
+}
+
+.con7 .imgline1 img {
+  border-radius: 25px;
+  padding: 15px;
+}
+
+.con7 .imgline2 img {
+  border-radius: 25px;
+  padding: 15px;
 }
